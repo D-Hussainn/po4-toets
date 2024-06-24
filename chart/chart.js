@@ -4,7 +4,7 @@ const cardRow = document.querySelector('.card-container');
 const priceChart = document.querySelector('.price-chart');
 const priceChartPie = document.querySelector('.price-chart-pie');
 
-fetch('/icecreams/')
+fetch('/icecreams chart/')
     .then(data => data.json())
     .then(jsonData => showIceCreams(jsonData));
 

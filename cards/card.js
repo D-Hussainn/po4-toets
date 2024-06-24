@@ -2,7 +2,7 @@ console.log('cheap loaded');
 
 const cardRow = document.querySelector('.card-container');
 
-fetch('/cheap-icecreams/')
+fetch('/card-icecreams/')
     .then(data => data.json())
     .then(jsonData => showIceCreams(jsonData));
 

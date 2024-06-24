@@ -16,13 +16,13 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-app.get('/icecreams', (req, res) => {
+app.get('/icecreams chart', (req, res) => {
     fetchDocuments().then(icecreams => {
         res.json(icecreams);
     });
 });
 
-app.get('/cheap-icecreams', (req, res) => {
+app.get('/card-icecreams', (req, res) => {
     fetchCheapDocuments().then(icecreams => {
         res.json(icecreams);
     });
